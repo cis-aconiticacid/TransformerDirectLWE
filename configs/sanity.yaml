@@ -1,0 +1,29 @@
+# M0 Sanity — tiny LWE Mini run, CPU-feasible
+out_dir: runs/R000_sanity
+
+# Task params
+n: 16
+q: 17
+hamming: 4
+e_bound: 1
+
+# Model
+d_model: 32
+d_ff: 64
+n_heads: 2
+n_layers: 2
+
+# Training
+seed: 42
+steps: 500
+batch_size: 64
+eval_size: 2000
+lr: 3.0e-4
+weight_decay: 0.0
+warmup: 50
+clip: 1.0
+log_every: 100
+eval_every: 100
+
+# Sparsity OFF for sanity
+use_sparsity: false

@@ -1,0 +1,25 @@
+# Tiny SWIFFT sanity — m=2, n=4, p=7, minimal grokking budget on CPU.
+out_dir: runs/R000b_swifft_sanity
+
+m: 2
+n: 4
+p: 7
+mult_seed: 17
+
+d_model: 64
+d_ff: 128
+n_heads: 4
+n_layers: 3
+
+seed: 42
+steps: 4000
+batch_size: 128
+eval_size: 2000
+lr: 3.0e-3
+weight_decay: 0.0
+warmup: 100
+clip: 1.0
+log_every: 300
+eval_every: 300
+
+use_sparsity: false

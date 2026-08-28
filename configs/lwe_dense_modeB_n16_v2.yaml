@@ -1,0 +1,29 @@
+# M1.a' v2 — Mode B n=16 dense. Same hyperparameters as the working
+# n=4 Mode B sanity (d_model=64, lr=3e-3, batch=128), just scaled seq_len to 16.
+# If this works, the n=16 failure was "hyperparameter scaling" not "architecture".
+out_dir: runs/R001c_modeB_n16_v2
+
+n: 16
+q: 17
+hamming: 4
+e_bound: 1
+mode: B
+fixed_s_seed: 7
+
+d_model: 64
+d_ff: 128
+n_heads: 4
+n_layers: 2
+
+seed: 42
+steps: 25000
+batch_size: 128
+eval_size: 2000
+lr: 3.0e-3
+weight_decay: 0.0
+warmup: 100
+clip: 1.0
+log_every: 500
+eval_every: 500
+
+use_sparsity: false

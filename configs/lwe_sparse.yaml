@@ -1,0 +1,36 @@
+# M2.a — LWE Mini sparse (L0 anneal)
+# Requires dense baseline (M1.a) to have converged first to confirm Mode A/n=16
+# is learnable in this budget; otherwise, switch to Mode B first.
+out_dir: runs/R003_lwe_sparse
+
+n: 16
+q: 17
+hamming: 4
+e_bound: 1
+mode: A
+
+d_model: 128
+d_ff: 512
+n_heads: 4
+n_layers: 2
+
+seed: 42
+steps: 100000
+batch_size: 512
+eval_size: 10000
+lr: 1.0e-3
+weight_decay: 0.0
+warmup: 500
+clip: 1.0
+log_every: 1000
+eval_every: 5000
+
+use_sparsity: true
+constant_lambda: false
+# Longer warmup because Mode A n=16 grokking itself takes ~30-50k steps —
+# don't apply sparsity pressure until the dense circuit has formed.
+lambda_warmup_steps: 30000
+lambda_ramp_steps: 50000
+# Penalty is now normalized density ∈ [0, 1], so lambda_max is on CE-scale.
+# Sweep `[0.3, 1, 3, 10]` if hard density doesn't hit the target at λ=1.
+lambda_max: 1.0

@@ -1,0 +1,32 @@
+# LWE sparse at n=8 — scaling the sparse pipeline from n=4 to n=8
+out_dir: runs/R015_lwe_sparse_n8
+
+n: 8
+q: 7
+hamming: 2
+e_bound: 1
+mode: B
+fixed_s_seed: 7
+
+d_model: 64
+d_ff: 128
+n_heads: 4
+n_layers: 2
+
+seed: 42
+steps: 30000
+batch_size: 128
+eval_size: 2000
+lr: 3.0e-3
+weight_decay: 0.0
+warmup: 100
+clip: 1.0
+log_every: 1000
+eval_every: 1000
+
+use_sparsity: true
+constant_lambda: false
+# Don't apply sparsity pressure until the dense circuit has formed (n=8 groks ~5k)
+lambda_warmup_steps: 10000
+lambda_ramp_steps: 15000
+lambda_max: 1.0

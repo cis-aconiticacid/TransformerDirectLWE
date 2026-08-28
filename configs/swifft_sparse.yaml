@@ -1,0 +1,32 @@
+# M2.b — SWIFFT Mini sparse (L0 anneal)
+out_dir: runs/R004_swifft_sparse
+
+m: 4
+n: 16
+p: 17
+mult_seed: 17
+
+d_model: 128
+d_ff: 512
+n_heads: 4
+n_layers: 3
+
+seed: 42
+steps: 80000
+batch_size: 256
+eval_size: 10000
+lr: 1.0e-3
+weight_decay: 0.0
+warmup: 500
+clip: 1.0
+log_every: 1000
+eval_every: 4000
+
+use_sparsity: true
+constant_lambda: false
+lambda_warmup_steps: 20000
+lambda_ramp_steps: 50000
+# Normalized density penalty ∈ [0, 1]; lambda_max on CE-scale.
+# SWIFFT is harder than LWE decrypt (n classifiers instead of 1), so use a
+# slightly softer penalty to give the CE more room to drop first.
+lambda_max: 0.5

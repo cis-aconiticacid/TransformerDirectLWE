@@ -1,0 +1,27 @@
+# n=8 q=7 h=2 — minimal change from working n=4 (n=4→n=8, keep q=7, h=2)
+out_dir: runs/R001e_modeB_n8_q7
+
+n: 8
+q: 7
+hamming: 2
+e_bound: 1
+mode: B
+fixed_s_seed: 7
+
+d_model: 64
+d_ff: 128
+n_heads: 4
+n_layers: 2
+
+seed: 42
+steps: 8000
+batch_size: 128
+eval_size: 2000
+lr: 3.0e-3
+weight_decay: 0.0
+warmup: 100
+clip: 1.0
+log_every: 500
+eval_every: 500
+
+use_sparsity: false

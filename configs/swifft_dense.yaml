@@ -1,0 +1,25 @@
+# M1.b — SWIFFT Mini dense baseline
+out_dir: runs/R002_swifft_dense
+
+m: 4
+n: 16
+p: 17
+mult_seed: 17
+
+d_model: 128
+d_ff: 512
+n_heads: 4
+n_layers: 3
+
+seed: 42
+steps: 30000
+batch_size: 256
+eval_size: 10000
+lr: 1.0e-3
+weight_decay: 0.0
+warmup: 500
+clip: 1.0
+log_every: 500
+eval_every: 1500
+
+use_sparsity: false

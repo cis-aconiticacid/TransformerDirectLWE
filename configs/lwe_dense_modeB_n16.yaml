@@ -1,0 +1,29 @@
+# M1.a' — Mode B n=16 dense. Pipeline test before debugging Mode A.
+# Mode B = fixed secret in weights, strictly easier. If THIS doesn't grok in
+# 20k steps, the problem is at n=16 scaling (arch/opt), not just Mode A.
+out_dir: runs/R001b_lwe_dense_modeB_n16
+
+n: 16
+q: 17
+hamming: 4
+e_bound: 1
+mode: B
+fixed_s_seed: 7
+
+d_model: 128
+d_ff: 512
+n_heads: 4
+n_layers: 2
+
+seed: 42
+steps: 20000
+batch_size: 256
+eval_size: 4000
+lr: 5.0e-4
+weight_decay: 0.0
+warmup: 300
+clip: 1.0
+log_every: 500
+eval_every: 1000
+
+use_sparsity: false

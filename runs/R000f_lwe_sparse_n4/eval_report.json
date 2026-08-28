@@ -1,0 +1,97 @@
+{
+  "eval_accuracy_soft_gate": 1.0,
+  "density_expected": 0.8194796778769986,
+  "density_hard": 0.9171387670565302,
+  "hard_prune_check": {
+    "acc_soft_gate": 1.0,
+    "acc_hard_prune": 1.0,
+    "drop": 0.0
+  },
+  "probes_heldout": {
+    "layer0_in": {
+      "inner": {
+        "train": 0.15700000524520874,
+        "test": 0.14499999582767487
+      },
+      "diff": {
+        "train": 0.18199999630451202,
+        "test": 0.1720000058412552
+      },
+      "bit": {
+        "train": 0.5040000081062317,
+        "test": 0.49900001287460327
+      }
+    },
+    "layer0_postattn": {
+      "inner": {
+        "train": 0.5619999766349792,
+        "test": 0.49799999594688416
+      },
+      "diff": {
+        "train": 0.3009999990463257,
+        "test": 0.22100000083446503
+      },
+      "bit": {
+        "train": 0.6320000290870667,
+        "test": 0.5709999799728394
+      }
+    },
+    "layer0_out": {
+      "inner": {
+        "train": 0.6240000128746033,
+        "test": 0.5239999890327454
+      },
+      "diff": {
+        "train": 0.40299999713897705,
+        "test": 0.2800000011920929
+      },
+      "bit": {
+        "train": 0.746999979019165,
+        "test": 0.6990000009536743
+      }
+    },
+    "layer1_postattn": {
+      "inner": {
+        "train": 0.7300000190734863,
+        "test": 0.6430000066757202
+      },
+      "diff": {
+        "train": 0.6169999837875366,
+        "test": 0.5239999890327454
+      },
+      "bit": {
+        "train": 1.0,
+        "test": 1.0
+      }
+    },
+    "layer1_out": {
+      "inner": {
+        "train": 0.6930000185966492,
+        "test": 0.5839999914169312
+      },
+      "diff": {
+        "train": 0.6299999952316284,
+        "test": 0.5450000166893005
+      },
+      "bit": {
+        "train": 1.0,
+        "test": 1.0
+      }
+    },
+    "final": {
+      "inner": {
+        "train": 0.6150000095367432,
+        "test": 0.5370000004768372
+      },
+      "diff": {
+        "train": 0.5299999713897705,
+        "test": 0.46299999952316284
+      },
+      "bit": {
+        "train": 1.0,
+        "test": 1.0
+      }
+    }
+  },
+  "probe_note": "Each probe value is a dict with train/test accuracy; test is reported on a held-out 50% split."
+}

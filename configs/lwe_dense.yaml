@@ -1,0 +1,30 @@
+# M1.a — LWE Mini dense baseline
+# CPU observation (2026-04-18): Mode A at n=4 is still pre-grok at 6k steps.
+# Mode A at n=16 likely needs 50k+ GPU steps; Mode B likely 10-30k.
+# Default here: Mode A at 50k steps to be safe. Fall back to Mode B if this
+# hasn't started learning by ~25k.
+out_dir: runs/R001_lwe_dense
+
+n: 16
+q: 17
+hamming: 4
+e_bound: 1
+mode: A
+
+d_model: 128
+d_ff: 512
+n_heads: 4
+n_layers: 2
+
+seed: 42
+steps: 50000
+batch_size: 512
+eval_size: 10000
+lr: 1.0e-3
+weight_decay: 0.0
+warmup: 500
+clip: 1.0
+log_every: 500
+eval_every: 2000
+
+use_sparsity: false

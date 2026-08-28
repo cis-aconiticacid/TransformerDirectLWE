@@ -1,0 +1,30 @@
+# M0 Sanity — small-n Mode B LWE. Demonstrates grokking dynamics on CPU
+# in ~35 s. This is the real pipeline sanity (the original n=16 config
+# needs GPU-scale compute to escape the ~50 % plateau).
+out_dir: runs/R000_sanity
+
+n: 4
+q: 7
+hamming: 2
+e_bound: 1
+
+mode: B
+fixed_s_seed: 7
+
+d_model: 64
+d_ff: 128
+n_heads: 4
+n_layers: 2
+
+seed: 42
+steps: 3000
+batch_size: 128
+eval_size: 2000
+lr: 3.0e-3
+weight_decay: 0.0
+warmup: 100
+clip: 1.0
+log_every: 200
+eval_every: 200
+
+use_sparsity: false

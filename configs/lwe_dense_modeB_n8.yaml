@@ -1,0 +1,27 @@
+# Mode B n=8 dense — halfway between working n=4 and stuck n=16.
+out_dir: runs/R001d_modeB_n8
+
+n: 8
+q: 11
+hamming: 3
+e_bound: 1
+mode: B
+fixed_s_seed: 7
+
+d_model: 96
+d_ff: 256
+n_heads: 4
+n_layers: 2
+
+seed: 42
+steps: 15000
+batch_size: 128
+eval_size: 2000
+lr: 3.0e-3
+weight_decay: 0.0
+warmup: 100
+clip: 1.0
+log_every: 500
+eval_every: 500
+
+use_sparsity: false

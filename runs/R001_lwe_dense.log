@@ -1,0 +1,75 @@
+step=     0  loss=0.8079  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=0.7s
+  >> eval_acc=0.5022
+step=   500  loss=0.6924  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=11.2s
+step=  1000  loss=0.6927  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=21.4s
+step=  1500  loss=0.6928  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=29.4s
+step=  2000  loss=0.6932  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=39.4s
+  >> eval_acc=0.4978
+step=  2500  loss=0.6932  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=49.6s
+step=  3000  loss=0.6931  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=57.5s
+step=  3500  loss=0.6932  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=67.5s
+step=  4000  loss=0.6929  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=77.6s
+  >> eval_acc=0.4978
+step=  4500  loss=0.6932  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=85.8s
+step=  5000  loss=0.6931  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=95.9s
+step=  5500  loss=0.6933  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=106.0s
+step=  6000  loss=0.6931  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=114.1s
+  >> eval_acc=0.5022
+step=  6500  loss=0.6930  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=124.4s
+step=  7000  loss=0.6930  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=134.6s
+step=  7500  loss=0.6939  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=142.6s
+step=  8000  loss=0.6939  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=152.7s
+  >> eval_acc=0.5022
+step=  8500  loss=0.6929  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=163.0s
+step=  9000  loss=0.6931  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=171.0s
+step=  9500  loss=0.6932  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=181.2s
+step= 10000  loss=0.6931  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=189.3s
+  >> eval_acc=0.4978
+step= 10500  loss=0.6930  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=199.5s
+step= 11000  loss=0.6932  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=209.8s
+step= 11500  loss=0.6933  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=217.8s
+step= 12000  loss=0.6931  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=227.9s
+  >> eval_acc=0.4978
+step= 12500  loss=0.6931  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=238.3s
+step= 13000  loss=0.6932  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=246.4s
+step= 13500  loss=0.6931  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=256.6s
+step= 14000  loss=0.6932  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=266.8s
+  >> eval_acc=0.5022
+step= 14500  loss=0.6930  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=274.9s
+step= 15000  loss=0.6931  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=285.1s
+step= 15500  loss=0.6930  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=295.4s
+step= 16000  loss=0.6934  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=303.4s
+  >> eval_acc=0.5022
+step= 16500  loss=0.6930  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=313.7s
+step= 17000  loss=0.6932  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=324.1s
+step= 17500  loss=0.6931  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=332.2s
+step= 18000  loss=0.6933  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=342.4s
+  >> eval_acc=0.4978
+step= 18500  loss=0.6931  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=352.7s
+step= 19000  loss=0.6936  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=360.8s
+step= 19500  loss=0.6932  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=370.9s
+step= 20000  loss=0.6932  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=381.0s
+  >> eval_acc=0.5022
+step= 20500  loss=0.6930  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=389.3s
+step= 21000  loss=0.6932  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=399.5s
+step= 21500  loss=0.6931  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=409.7s
+step= 22000  loss=0.6932  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=417.6s
+  >> eval_acc=0.5022
+step= 22500  loss=0.6931  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=427.9s
+step= 23000  loss=0.6931  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=438.0s
+step= 23500  loss=0.6932  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=445.9s
+step= 24000  loss=0.6932  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=456.0s
+  >> eval_acc=0.5022
+step= 24500  loss=0.6935  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=466.3s
+step= 25000  loss=0.6932  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=474.3s
+step= 25500  loss=0.6932  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=484.4s
+step= 26000  loss=0.6930  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=494.6s
+  >> eval_acc=0.5022
+step= 26500  loss=0.6932  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=502.7s
+step= 27000  loss=0.6932  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=512.7s
+step= 27500  loss=0.6932  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=522.8s
+step= 28000  loss=0.6932  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=530.8s
+  >> eval_acc=0.5022
+step= 28500  loss=0.6932  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=541.1s
+step= 29000  loss=0.6930  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=551.4s
+step= 29500  loss=0.6932  lambda=0.00000  density_exp=1.00000  density_hard=1.00000  elapsed=559.5s

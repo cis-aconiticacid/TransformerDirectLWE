@@ -1,0 +1,32 @@
+# Alt sanity — Mode B (fixed secret). Strictly easier than Mode A; verifies
+# that the training pipeline can learn *something* before we chase convergence
+# on the full Mode A task.
+out_dir: runs/R000_sanity_modeB
+
+# Task
+n: 16
+q: 17
+hamming: 4
+e_bound: 1
+mode: B
+fixed_s_seed: 7
+
+# Model
+d_model: 64
+d_ff: 128
+n_heads: 4
+n_layers: 2
+
+# Training
+seed: 42
+steps: 3000
+batch_size: 128
+eval_size: 2000
+lr: 5.0e-4
+weight_decay: 0.0
+warmup: 200
+clip: 1.0
+log_every: 200
+eval_every: 200
+
+use_sparsity: false

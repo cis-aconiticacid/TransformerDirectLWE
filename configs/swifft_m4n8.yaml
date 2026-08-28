@@ -1,0 +1,25 @@
+# SWIFFT scale test: m=4, n=8, p=17. Half the "real" Mini spec (m=4, n=16, p=17).
+out_dir: runs/R002a_swifft_m4n8
+
+m: 4
+n: 8
+p: 17
+mult_seed: 17
+
+d_model: 128
+d_ff: 512
+n_heads: 4
+n_layers: 3
+
+seed: 42
+steps: 20000
+batch_size: 128
+eval_size: 4000
+lr: 1.0e-3
+weight_decay: 0.0
+warmup: 200
+clip: 1.0
+log_every: 500
+eval_every: 500
+
+use_sparsity: false

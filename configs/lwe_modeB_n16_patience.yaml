@@ -1,0 +1,31 @@
+# n=16 Mode B PATIENCE test. Based on working n=4 + n=8 config; bump steps
+# because grokking step scales super-linearly with n.
+#   n=4  groks at ~1.2k steps
+#   n=8  groks at ~5k steps
+#   n=16 estimated ~20-40k steps
+out_dir: runs/R013_modeB_n16_patience
+
+n: 16
+q: 7
+hamming: 4
+e_bound: 1
+mode: B
+fixed_s_seed: 7
+
+d_model: 64
+d_ff: 128
+n_heads: 4
+n_layers: 2
+
+seed: 42
+steps: 80000
+batch_size: 128
+eval_size: 2000
+lr: 3.0e-3
+weight_decay: 0.0
+warmup: 100
+clip: 1.0
+log_every: 2000
+eval_every: 2000
+
+use_sparsity: false
